@@ -3,6 +3,8 @@
 <html class="no-js">
 
 <head>
+        <link href="https://lib.baomitu.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://q1.qlogo.cn/g?b=qq&nk=2051261534&s=640" rel="SHORTCUT ICON" />
 	<meta charset="<?php $this->options->charset(); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 	<meta name="renderer" content="webkit">
@@ -23,13 +25,13 @@
 
     <link rel="icon" type="image/ico" href="/favicon.ico">
 	<?php if(Utils::isEnabled('enableFancybox','AriaConfig')): ?>
-	<link href="<?php $this->options->themeUrl('assets/css/jquery.fancybox.min.css'); ?>" rel="stylesheet">
+	<link href="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/css/jquery.fancybox.min.css" rel="stylesheet">
     <?php endif; ?>
-	<link href="<?php $this->options->themeUrl('assets/OwO/OwO.min.css'); ?>" rel="stylesheet">
-	<link href="<?php $this->options->themeUrl('assets/css/animate.min.css'); ?>" rel="stylesheet">
-    <link href="<?php $this->options->themeUrl('assets/css/iconfont.css'); ?>" rel="stylesheet" >
-    <link href="<?php $this->options->themeUrl('assets/css/style.min.css?v=213a50a4db'); ?>" rel="stylesheet">
-    <script src="<?php $this->options->themeUrl('assets/js/jquery.min.js'); ?>"></script>
+	<link href="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/OwO/OwO.min.css" rel="stylesheet">
+	<link href="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/css/animate.min.css" rel="stylesheet">
+    <link href="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/css/iconfont.css" rel="stylesheet" >
+    <link href="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/css/style.min.css?v=213a50a4db" rel="stylesheet">
+    <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/jquery.min.js"></script>
     <?php if($this->options->customHeader) $this->options->customHeader(); ?>
 	<!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
@@ -68,7 +70,7 @@
     <span class="close"><i class="iconfont icon-aria-close"></i></span>
     <form id="search" method="post" action="./" role="search">
         <input type="text" name="s" id="search-text" placeholder="想要看什么？" />
-        <button type="submit" id="search-button" style="background: url(<?php $this->options->themeUrl('assets/img/search.png') ?>) center center no-repeat;background-size: cover;"></button>
+        <button type="submit" id="search-button" style="background: url(https://typecho-1252071452.cos.ap-beijing.myqcloud.com/img/search.png') ?>) center center no-repeat;background-size: cover;"></button>
     </form>
 </div>
 <div id="pjax-container">

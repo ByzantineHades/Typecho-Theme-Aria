@@ -124,7 +124,7 @@ echo $commentClass;
 			<?php endif; ?>
 			<p>
 				<label for="textarea" class="required"></label>
-				<textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="<?php $this->options->placeholder(); ?>"><?php $this->remember('text'); ?></textarea>
+				<textarea style="background-size: contain;background-repeat: no-repeat;background-position: right;background-color: rgba(255,255,255,0);resize: vertical;background-image: url(https://view.moezx.cc/images/2018/03/24/comment-bg.png);" rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="<?php $this->options->placeholder(); ?>"><?php $this->remember('text'); ?> </textarea>
 			</p>
 			<div id="comment-footer">
 				<div class="OwO">

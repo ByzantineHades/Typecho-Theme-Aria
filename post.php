@@ -30,5 +30,6 @@
     <?php $this->need('comments.php'); ?>
 
 </div><!-- end #main-->
-<?php if($this->fields->showTOC) $this->need('TOC.php'); ?>
+<?php $this->need('TOC.php'); ?>
+<!-- ?php if($this->fields->showTOC) $this->need('TOC.php'); ? -->
 <?php $this->need('footer.php'); ?>
