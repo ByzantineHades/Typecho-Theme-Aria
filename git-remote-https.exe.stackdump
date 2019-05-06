@@ -1,7 +1,0 @@
-Exception: STATUS_IN_PAGE_ERROR at eip=6E94B270
-eax=6E94B270 ebx=00000000 ecx=0028C938 edx=80095D58 esi=0000001D edi=00000000
-ebp=80145130 esp=0028C8FC program=F:\MSYS2\usr\lib\git-core\git-remote-https.exe, pid 1940, thread main
-cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
-Stack trace:
-Frame     Function  Args
-End of stack trace
