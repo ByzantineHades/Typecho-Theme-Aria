@@ -70,7 +70,7 @@
     <span class="close"><i class="iconfont icon-aria-close"></i></span>
     <form id="search" method="post" action="./" role="search">
         <input type="text" name="s" id="search-text" placeholder="想要看什么？" />
-        <button type="submit" id="search-button" style="background: url(https://typecho-1252071452.cos.ap-beijing.myqcloud.com/img/search.png') ?>) center center no-repeat;background-size: cover;"></button>
+        <button type="submit" id="search-button" style="background: url(https://typecho-1252071452.cos.ap-beijing.myqcloud.com/img/search.png);background-size: cover;"></button>
     </form>
 </div>
 <div id="pjax-container">
