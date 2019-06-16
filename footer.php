@@ -35,19 +35,19 @@
 <script src= "https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/firework.js"></script>
 <!--FireworkEND-->
 
-<!-- L2dSTART -- >
-< !-- 实现拖动效果，需引入 JQuery UI -- >
+<!-- L2dSTART -->
+<!-- 实现拖动效果，需引入 JQuery UI -->
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/jquery-ui.js?v=1.12.1"></script>
-< !-- 使用 aotuload.js 引入看板娘 -- >
+<!-- 使用 aotuload.js 引入看板娘 -->
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/waifu-autoload.js?v=1.4.2"></script>
-< !-- L2dEND -- >
-< !-- Your XlchPlayerKey -- >
+<!-- L2dEND -->
+<!-- Your XlchPlayerKey -->
 <script>XlchKey="ByHa";</script>
-< !-- JQuery-mousewheel 3.1.9 -- >
+<!-- JQuery-mousewheel 3.1.9 -->
 <script src="https://lib.baomitu.com/jquery-mousewheel/3.1.9/jquery.mousewheel.min.js"></script>
-< !-- Scrollbar -- >
+<!-- Scrollbar -->
 <script src="https://static.https.badapple.top/BadApplePlayer/js/scrollbar.js"></script>
-< !-- BadApplePlayer -- >
+<!-- BadApplePlayer -->
 <script src="https://static.https.badapple.top/BadApplePlayer/Player.js"></script>
 -->
 </body>
