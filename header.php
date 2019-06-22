@@ -32,6 +32,7 @@
     <link href="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/css/iconfont.css" rel="stylesheet" >
     <link href="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/css/style.min.css?v=213a50a4db" rel="stylesheet">
     <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/jquery.min.js"></script>
+    <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/jquery.cookie.js"></script>
     <?php if($this->options->customHeader) $this->options->customHeader(); ?>
 	<!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
