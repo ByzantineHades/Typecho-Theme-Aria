@@ -3,7 +3,7 @@
 <html class="no-js">
 
 <head>
-    <link href="https://lib.baomitu.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://q1.qlogo.cn/g?b=qq&nk=2051261534&s=1" rel="SHORTCUT ICON" />
 	<meta charset="<?php $this->options->charset(); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
