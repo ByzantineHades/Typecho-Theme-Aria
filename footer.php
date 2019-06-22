@@ -49,9 +49,6 @@
 <script src="https://static.https.badapple.top/BadApplePlayer/js/scrollbar.js"></script>
 <!-- BadApplePlayer -->
 <script src="https://static.https.badapple.top/BadApplePlayer/Player.js"></script>
-<script type="text/javascript" src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/Setting.js"></script>
-<script>
-    pages();
-</script>
+<script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/Setting.js"></script>
 </body>
 </html>
