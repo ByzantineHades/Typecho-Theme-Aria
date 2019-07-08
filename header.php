@@ -3,22 +3,6 @@
 <html class="no-js">
 
 <head>
-    <?php if(Utils::isEnabled('enableMathJax','AriaConfig')): ?>
-    <script type="text/x-mathjax-config"><?php $this->options->MathJaxConfig(); ?></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc.1/katex.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc.1/katex.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc.1/contrib/auto-render.min.js"></script>
-    <script>
-        renderMathInElement(document.body,
-    {
-                delimiters: [
-                    {left: "$$", right: "$$", display: true},
-                    {left: "$", right: "$", display: false}
-                ]
-            }
-    );
-    </script>
-    <?php endif; ?>
     <link href="https://lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://q1.qlogo.cn/g?b=qq&nk=2051261534&s=1" rel="SHORTCUT ICON" />
 	<meta charset="<?php $this->options->charset(); ?>">
