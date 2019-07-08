@@ -20,8 +20,10 @@
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/jquery.lazyload.min.js"></script>
 <?php endif; ?>
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/OwO/OwO.min.js"></script>
-
-
+<?php if(Utils::isEnabled('enableMathJax','AriaConfig')): ?>
+<script type="text/x-mathjax-config"><?php $this->options->MathJaxConfig(); ?></script>
+<script src="//cdn.jsdelivr.net/npm/mathjax@latest/MathJax.js?config=TeX-AMS-MML_SVG.js"></script>
+<?php endif; ?>
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/functions.min.js?v=8b426df9ab"></script>
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/main.min.js?v=de446d9d66"></script>
 <?php echo $this->options->customScript ? "<script>".$this->options->customScript."</script>\n" : ""; ?>

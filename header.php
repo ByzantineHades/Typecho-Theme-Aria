@@ -55,7 +55,7 @@
     <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body onload="pages()">
 <?php Utils::AriaConfig(); ?>
 <div id="wrapper" onclick="toggleNav();"></div>
 <div id="nav-vertical">
