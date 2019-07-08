@@ -20,22 +20,8 @@
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/jquery.lazyload.min.js"></script>
 <?php endif; ?>
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/OwO/OwO.min.js"></script>
-<?php if(Utils::isEnabled('enableMathJax','AriaConfig')): ?>
-<script type="text/x-mathjax-config"><?php $this->options->MathJaxConfig(); ?></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc.1/katex.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc.1/katex.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc.1/contrib/auto-render.min.js"></script>
-<script>
-    renderMathInElement(document.body,
-   {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false}
-              ]
-          }
-  );
-</script>
-<?php endif; ?>
+
+
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/functions.min.js?v=8b426df9ab"></script>
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/main.min.js?v=de446d9d66"></script>
 <?php echo $this->options->customScript ? "<script>".$this->options->customScript."</script>\n" : ""; ?>
