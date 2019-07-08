@@ -22,8 +22,7 @@
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/OwO/OwO.min.js"></script>
 <?php if(Utils::isEnabled('enableMathJax','AriaConfig')): ?>
 <script type="text/x-mathjax-config"><?php $this->options->MathJaxConfig(); ?></script>
-
-<script src="http://cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <?php endif; ?>
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/functions.min.js?v=8b426df9ab"></script>
 <script src="https://typecho-1252071452.cos.ap-beijing.myqcloud.com/js/main.min.js?v=de446d9d66"></script>
